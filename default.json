@@ -1,0 +1,383 @@
+{
+	"data" :
+		{ "all_scenes" : 
+			[{
+				"requirements" : {
+					"player" : [],
+					"waifu" : []
+				},
+				"scene_name" : "main",
+				"dialogues" : [
+					{
+						"expression" : "crossed",
+						"meta_name" : "hello  1",
+						"dialogue" : 1,
+						"branch_options" : {
+							"click" : 2
+						}
+					},
+					{
+						"expression" : "crossed",
+						"meta_name" : "working on this for a while",
+						"dialogue" : 2,
+						"branch_options" : {
+							"click" : 21,
+							"its looking pretty good so far" : {
+								"requirements" : {},
+								"go_to" : 3
+							},
+							"uh, um, how do i pause the music?" : {
+								"requirements" : {},
+								"go_to" : 11
+							},
+							"um, is it just this character? where are the others?" : {
+								"requirements" : {},
+								"go_to" : 9
+							},
+							"send me back to the previous page" : {
+								"requirements" : {},
+								"go_to" : 19
+							}
+						}
+					},
+					{
+						"expression" : "crossed",
+						"meta_name" : "oh, why thank you",
+						"dialogue" : 3,
+						"branch_options" : {
+							"click" : 6,
+							"you want some help?" : {
+								"requirements" : {},
+								"go_to" : 4
+							},
+							"uh, how do i pause the music?" : {
+								"requirements" : {},
+								"go_to" : 11
+							},
+							"yo, why is there only this one character i'm seeing?" : {
+								"requirements" : {},
+								"go_to" : 9
+							}
+						}
+					},
+					{
+						"expression" : "crossed",
+						"meta_name" : "you wanna help?",
+						"dialogue" : 4,
+						"branch_options" : {
+							"click" : 6,
+							"yeah, i'm sure i can do something" : {
+								"requirements" : {},
+								"go_to" : 5
+							},
+							"i can draw just a bit" : {
+								"requirements" : {},
+								"go_to" : 10
+							}
+						}
+					},
+					{
+						"expression" : "crossed",
+						"meta_name" : "i doubt it  5",
+						"dialogue" : 5,
+						"branch_options" : {
+							"click" : 6,
+							"i can draw just a bit" : {
+								"requirements" : {},
+								"go_to" : 10
+							},
+							"can i support this in some way?" : {
+								"requirements" : {},
+								"go_to" : 7
+							}
+						}
+					},
+					{
+						"expression" : "crossed",
+						"meta_name" : "but, well here's my discord",
+						"dialogue" : 6,
+						"branch_options" : {
+							"click" : 21,
+							"oh also, how do i pause the music?" : {
+								"requirements" : {},
+								"go_to" : 11
+							},
+							"oh yeah, why is there only this one character i'm seeing?" : {
+								"requirements" : {},
+								"go_to" : 9
+							},
+							"can i support this in some way?" : {
+								"requirements" : {},
+								"go_to" : 7
+							}
+						}
+					},
+					{
+						"expression" : "crossed",
+						"meta_name" : "support it? sure",
+						"dialogue" : 7,
+						"branch_options" : {
+							"click" : 21,
+							"oh also, how do i pause the music?" : {
+								"requirements" : {},
+								"go_to" : 11
+							},
+							"oh yeah, why is there only this one character i'm seeing?" : {
+								"requirements" : {},
+								"go_to" : 9
+							}
+						}
+					},
+					{
+						"expression" : "crossed",
+						"meta_name" : "you're not supposed to be here",
+						"dialogue" : 8,
+						"branch_options" : {
+							"click" : 1
+						}
+					},
+					{
+						"expression" : "crossed",
+						"meta_name" : "why only one character?",
+						"dialogue" : 9,
+						"branch_options" : {
+							"click" : 21,
+							"you need any help with the mods?" : {
+								"requirements" : {},
+								"go_to" : 4
+							},
+							"oh yeah, how do i pause the music?" : {
+								"requirements" : {},
+								"go_to" : 11
+							}
+						}
+					},
+					{
+						"expression" : "crossed",
+						"meta_name" : "dang, you draw?  10",
+						"dialogue" : 10,
+						"branch_options" : {
+							"click" : 21,
+							"oh yeah, how do i pause the music?" : {
+								"requirements" : {},
+								"go_to" : 11
+							}
+						}
+					},
+					{
+						"expression" : "crossed",
+						"meta_name" : "music? dang, controls",
+						"dialogue" : 11,
+						"branch_options" : {
+							"click" : 14,
+							"you had the time to write this but not a pause button? look the text is even going off screen, how can you be this lazy etc. etc. etc" : {
+								"requirements" : {},
+								"go_to" : 12
+							}
+						}
+					},
+					{
+						"expression" : "crossed",
+						"meta_name" : "wow rude",
+						"dialogue" : 12,
+						"branch_options" : {
+							"click" : 13
+						}
+					},
+					{
+						"expression" : "crossed",
+						"meta_name" : "lol just kidding",
+						"dialogue" : 13,
+						"branch_options" : {
+							"click" : 14,
+							"you need help with anything?" : {
+								"requirements" : {},
+								"go_to" : 4
+							},
+							"alright, cool, thanks" : {
+								"requirements" : {},
+								"go_to" : 14
+							}
+						}
+					},
+					{
+						"expression" : "crossed",
+						"meta_name" : "type this",
+						"dialogue" : 14,
+						"branch_options" : {
+							"click" : 15,
+							"aight, got it, thanks" : {
+								"requirements" : {},
+								"go_to" : 18
+							}
+						}
+					},
+					{
+						"expression" : "crossed",
+						"meta_name" : "that should work for you  15",
+						"dialogue" : 15,
+						"branch_options" : {
+							"click" : 16,
+							"cool" : {
+								"requirements" : {},
+								"go_to" : 16
+							},
+							"oh yeah, why is there only this one character i'm seeing?" : {
+								"requirements" : {},
+								"go_to" : 9
+							},
+							"i didn't catch that, can you say it again?" : {
+								"requirements" : {},
+								"go_to" : 17
+							}
+						}
+					},
+					{
+						"expression" : "crossed",
+						"meta_name" : "i think",
+						"dialogue" : 16,
+						"branch_options" : {
+							"click" : 18
+						}
+					},
+					{
+						"expression" : "crossed",
+						"meta_name" : "wow alright, fine fine, again",
+						"dialogue" : 17,
+						"branch_options" : {
+							"click" : 14
+						}
+					},
+					{
+						"expression" : "crossed",
+						"meta_name" : "got it? good",
+						"dialogue" : 18,
+						"branch_options" : {
+							"click" : 21,
+							"oh yeah, why is there only this one character i'm seeing?" : {
+								"requirements" : {},
+								"go_to" : 9
+							}
+						}
+					},
+					{
+						"expression" : "crossed",
+						"meta_name" : "fake landing main page",
+						"dialogue" : 1,
+						"branch_options" : {
+							"click" : 20,
+							"you want some help?" : {
+								"requirements" : {},
+								"go_to" : 4
+							},
+							"its looking pretty good so far" : {
+								"requirements" : {},
+								"go_to" : 3
+							}
+						}
+					},
+					{
+						"expression" : "crossed",
+						"meta_name" : "psyche, it was fake   20",
+						"dialogue" : 19,
+						"branch_options" : {
+							"click" : 21
+						}
+					},
+					{
+						"expression" : "crossed",
+						"meta_name" : "please support me!!",
+						"dialogue" : 20,
+						"branch_options" : {
+							"click" : 1
+						}
+					}
+					
+				],
+				"default" : {
+					"expression" : "crossed",
+					"meta_name" : "default start page",
+					"dialogue" : 0,
+					"branch_options" :
+						{"click" : 1}
+				}	
+			}]
+		},
+	"savedata_meta": {
+	    "character_data": [
+	      {
+	        "inventory": [{"name" : "chocolates", "identifier" : 0, "amount" : 1}],
+	        "player_stats": [
+	          {
+	            "luck": 10,
+	            "attraction": 0,
+	            "intelligence": 0,
+	            "strength": 0,
+	            "adaptability": 0,
+	            "perception": 0
+	          }
+	        ],
+	        "player_name": "jack",
+	        "currency": 1000
+	      }
+	    ],
+	    "waifu_data": [
+	      {
+	      	"name" : "",
+	      	"stats" : {
+	      		"friendliness" : 0,
+	      		"anger_cap" : 0,
+	      		"crossedness_cap" : 0
+	      	},
+	      	"likes" : {
+
+	      	},
+	      	"doki_power" : 0
+	      }
+	    ],
+	    "all_scenes": [
+	      {}
+	    ],
+	    "meta_info": [
+	      {}
+	    ]
+	},
+	"items" : [
+		{"name" : "chocolates", "description" : ""},
+		{"name" : "body_pillow", "description" : ""},
+		{"name" : "glasses", "description" : ""},
+		{"name" : "keychain", "description" : ""},
+		{"name" : "cookies", "description" : ""},
+		{"name" : "water", "description" : ""},
+		{"name" : "roses", "description" : ""},
+		{"name" : "sweets", "description" : ""},
+		{"name" : "gun", "description" : ""},
+		{"name" : "knife", "description" : ""},
+		{"name" : "camera", "description" : ""},
+		{"name" : "gold", "description" : ""},
+		{"name" : "food", "description" : ""}
+	],
+	"dialogues" : [
+		{"text" : "DEFAULT MAIN TEXT DAWG"},
+		{"text" : "yo yo yo, hello, this is the main scene you're reading, thanks for trying out the mod"},
+		{"text" : "i've been working on this for a short while, yo, its coming along i guess..."},
+		{"text" : "oh, why thank you, i appreciate the compliment, really, this has taken me quite some effort"},
+		{"text" : "what's that? you wanna help with this bullshit yo?"},
+		{"text" : "i doubt it"},
+		{"text" : "eh, well alright, here's my discord, arugon#8982"},
+		{"text" : "support? eh, well, i'm on discord, i guess i got a paypal, but i'd appreciate some help to just get these assets and storyboards done tbh"},
+		{"text" : "HEY, you're not supposed to be here!! the frick dawg, i'm throwing you back to the main page"},
+		{"text" : "oh, why there's only this character? i still gotta draw the rest lol"},
+		{"text" : "oh dang, you can draw? well....maybe, i really need someone to write more of these dialogues more than anything else tbh"},
+		{"text" : "music?...AH FRICK, i forgot to add music controls!!"},
+		{"text" : "wow that's rude, can you like, not bro, the frick, i do what i want, y'know what? no pause button for you, find another way to do it"},
+		{"text" : "lol nah, i'm just kidding, but yo, i'll fix that text overflow....some other time...maybe"},
+		{"text" : "here, type $('#waifu_sound_file_container .music_sfx')[0].pause();     "},
+		{"text" : "that should probably work for you ( if you didn't do anything wrong )"},
+		{"text" : "ye, np, .......i think...maybe"},
+		{"text" : "alright, fine fine, i'll say it again"},
+		{"text" : "got it? good, good"},
+		{"text" : "AHHHH, you thought this was the main page, nerd, now shoo, i'll send ye back"},
+		{"text" : "thanks for checking out the mod, please support me in some way!! bye!!"}
+	]
+}
